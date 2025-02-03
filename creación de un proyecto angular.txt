@@ -1,0 +1,5 @@
+primero el standalone
+-> ng new superheroes --standalone false
+el componente
+-> ng g c heroes/hero
+-> ng g c heroes/list

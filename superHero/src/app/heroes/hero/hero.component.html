@@ -1,0 +1,21 @@
+<h1>{{ nombre }}</h1>
+<dl>
+    <dt>Nombre: </dt>
+    <dd>{{ nombre }}</dd>
+
+    <dt>Edad:</dt>
+    <dd>{{ edad }}</dd>
+
+    <dt>Método</dt>
+    <dd>{{ metodo }}</dd>
+
+    <dt>Capitalizado</dt>
+    <dd>{{ nombre | uppercase}}</dd>
+</dl>
+
+<div class="row justify-content-center align-items-center g-2">
+    <div class="col"><button class="btn btn-primary tb-2" (click)="cambiarNombre()">Cambiar nombre</button></div>
+    <div class="col"><button class="btn btn-primary tb-2" (click)="cambiarEdad()">Cambiar edad</button></div>
+    <div class="col"><button class="btn btn-primary tb-2" (click)="cambiarMetodo()">Cambiar método</button></div>
+</div>
+
