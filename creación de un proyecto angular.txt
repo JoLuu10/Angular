@@ -3,3 +3,6 @@ primero el standalone
 el componente
 -> ng g c heroes/hero
 -> ng g c heroes/list
+
+Iniciar 
+-> ng serve
