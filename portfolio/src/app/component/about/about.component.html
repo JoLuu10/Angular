@@ -1,62 +1,170 @@
-<h1>Inicio de sesión</h1><br>
-<form>
-    <div class="form-group row">
-      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-      </div>
-    </div>
-    <br>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-      </div>
-    </div>
-    <br>
-    <fieldset class="form-group">
-      <div class="row">
-        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-            <label class="form-check-label" for="gridRadios1">
-              First radio
-            </label>
-          </div>
-          <br>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-            <label class="form-check-label" for="gridRadios2">
-              Second radio
-            </label>
-          </div>
-          <br>
-          <div class="form-check disabled">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-            <label class="form-check-label" for="gridRadios3">
-              Third disabled radio
-            </label>
-          </div>
-          <br>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body class="body">
+        <section class="seccion">
+            <h2 class="text-center my-5 heading">Sobre mi</h2>
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-12 md-4 sm-1 mb-4">
+                        <div class="card text-center">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="../../../../public/img/Perfil.jpg" alt="Profile Image" class="img-thumbnail me-3" style="width: 150px;">
+                                <h1>José Luis Guijo Calero</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 md-4 sm-1 mb-4">
+                        <div class="card text-center">
+                            <h1 class="card-title">Estudios</h1>
+                            <h3>Bachillerato | IES Murillo - San Bernardo</h3>
+                            <p>Artes plásticas</p>
+                            <p>Septiembre 2018 - Junio 2021</p>
+                            <a href="https://blogsaverroes.juntadeandalucia.es/ies-murillo/" class="btn btn-outline-primary">saber más</a><br>
+                            <h3>Grado superior | CESUR - Sevilla Cartuja</h3>
+                            <p>Animación 2D y 3D, Entornos interactivos y videojuegos</p>
+                            <p>Septiembre 2021 - Junio 2023</p>
+                            <a href="https://www.cesurformacion.com/centros/sevilla/cartuja?medio=01%20-%20Google%20Organico&utm_source=01%20-%20Busqueda&utm_campaign=gmb_sevilla_cartuja" class="btn btn-outline-primary">saber más</a><br>
+                            <h3>Grado superior | MEDAC - Sevilla Este</h3>
+                            <p>Desarrollo de Aplicaciones Web (DAW)</p>
+                            <p>Septiembre 2023 - Actualidad</p>
+                            <a href="https://medac.es/fp-sevilla/calle-quimico-antonio-soto" class="btn btn-outline-primary">saber más</a><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-12 md-4 sm-1 mb-4">
+                        <div class="card text-center">
+                            <h1 class="card-title">Formación</h1>
+                            <h3>Prácticas en la empresa BRIDDER LAB | 2023</h3>
+                            <p>Gestionaba la creación de animaciones para cartas en directos de streamers de Twitch y recreación de anuncios.</p>
+                            <a href="https://bridder.com/" class="btn btn-outline-primary">saber más</a><br>
+                            <h3>Monitor de Feria Navideña Monty Park | 2023</h3>
+                            <p>Gestionaba el cuidado de las atracciones y de los niños.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-12 md-4 sm-1 mb-4">
+                        <div class="card text-center">
+                            <h1 class="card-title">Programas</h1>
+                            <div class="d-flex flex-wrap justify-content-center">
+                                <img src="../../../../public/img/premiere-pro.png" alt="Premier" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/photoshop.png" alt="Photoshop" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/after-effects.png" alt="After Effects" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/Blender.png" alt="Blender" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/unity.png" alt="Unity" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/Logo_Aseprite.png" alt="Aseprite" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/Eclipse.png" alt="Eclipse" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/visual.png" alt="Visual Studio" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/docker.png" alt="Docker" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/figma.png" alt="Figma" style="width: 80px;" class="m-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 md-4 sm-1 mb-4">
+                        <div class="card text-center">
+                            <h1 class="card-title">SoftWare Skill</h1>
+                            <div class="d-flex flex-wrap justify-content-center">
+                                <img src="../../../../public/img/html.png" alt="HTML" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/css-3.png" alt="CSS" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/c-.png" alt="C++" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/c-sharp.png" alt="C#" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/xml.png" alt="XML" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/java-script.png" alt="JavaScript" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/java.png" alt="Java" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/php.png" alt="PHP" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/MySQL-Logo.png" alt="MySQL" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/phpmyadmin.png" alt="phpMyAdmin" style="width: 80px;" class="m-2">
+                                <img src="../../../../public/img/wordpress.png" alt="WordPress" style="width: 80px;" class="m-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+    <div class="modal fade" id="audioModal" tabindex="-1" aria-labelledby="audioModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="audioModalLabel">¡Activa el audio de fondo!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Te invitamos a activar el audio de fondo para disfrutar mejor de la experiencia en nuestro portfolio.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Activar Audio</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
-    </fieldset>
-    <div class="form-group row">
-      <div class="col-sm-2">Checkbox</div>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck1">
-          <label class="form-check-label" for="gridCheck1">
-            Example checkbox
-          </label>
+    </div>
+  </div>
+  
+  <!-- Script para abrir el modal al cargar la página -->
+  <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+          var myModal = new bootstrap.Modal(document.getElementById('audioModal'), {
+              keyboard: false
+          });
+          myModal.show();
+      });
+  </script>
+  
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts.js"></script>
+        <script>
+            // JavaScript para controlar la reproducción del video
+            const playButton = document.getElementById('playVideoButton');
+            const video = document.getElementById('introVideo');
+    
+            playButton.addEventListener('click', function() {
+                // Mostrar el video y reproducirlo
+                video.style.display = 'block';
+                video.play();
+            });
+            // Obtener los elementos de audio y el botón de mute
+            const audioPlayer = document.getElementById('audioPlayer');
+            const muteButton = document.getElementById('muteButton');
+            const muteIcon = document.getElementById('muteIcon');
+
+            // Función para alternar el mute
+            muteButton.addEventListener('click', function() {
+                if (audioPlayer.muted) {
+                    audioPlayer.muted = false;
+                    muteIcon.classList.remove('bi-volume-mute');
+                    muteIcon.classList.add('bi-volume-up');
+                } else {
+                    audioPlayer.muted = true;
+                    muteIcon.classList.remove('bi-volume-up');
+                    muteIcon.classList.add('bi-volume-mute');
+                }
+            });
+        </script>
+    </body>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <br> 
+                    <h5>Sobre mi</h5>
+                    <p>Hola, soy Jose Luis y soy un desarrollador web y animador 2d y 3d</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Jose Luis. All Rights Reserved.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <br>
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </div>
-    </div>
-  </form>
+    </footer>
+</html>
