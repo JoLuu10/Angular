@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { NavbarComponent } from './share/navbar/navbar.component';
+import { app_routing } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavbarComponent } from './share/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    app_routing
   ],
   providers: [
     provideClientHydration(withEventReplay())
