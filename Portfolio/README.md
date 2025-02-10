@@ -1,59 +1,66 @@
-# Portfolio
+# Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Creación de un proyecto en Angular
 
-## Development server
 
-To start a local development server, run:
+## Authors
 
-```bash
-ng serve
-```
+- [@JoLuu10](https://www.github.com/JoLuu10)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Creación de un archivo en angular
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Creamos el archivo en Angular
 
 ```bash
-ng generate component component-name
+  ng new Portfolio --standalone false
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Iniciar el proyecto
 
 ```bash
-ng generate --help
+  ng serve
 ```
+Componentes añadidos
 
-## Building
-
-To build the project run:
-
+Página de inicio
 ```bash
-ng build
+  ng g c component/home
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+Página de sobre ti
 ```bash
-ng test
+  ng g c component/about
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+Página de barra de navegación
 ```bash
-ng e2e
+  ng g c share/navbar
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+## Bootstrap
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Instalar Bootstrap
+```bash
+  npm install bootstrap
+```
+
+Incluir Bootstrap 5.3.2
+```bash
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+Incluir los componentes JavaScript de Bootstrap
+```bash
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><!--incluir los componentes JavaScript de Bootstrap-->
+```
+
+
+## Licencias
+
+[![GitHub License](https://img.shields.io/badge/GitHub-green.svg)](https://github.com/JoLuu10/Angular)
+
+[![Visual Studio](https://img.shields.io/badge/VisualStudio-blue.svg)](https://code.visualstudio.com/docs)
+
+[![Angular](https://img.shields.io/badge/Angular-violet.svg)](https://angular.dev/overview)
+
+[![BootStrap](https://img.shields.io/badge/BootStrap-purple.svg)](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+[![Java Script](https://img.shields.io/badge/JavaScript-yellow.svg)](https://developer.mozilla.org/es/docs/Web/JavaScript)
